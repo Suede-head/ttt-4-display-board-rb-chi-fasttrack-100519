@@ -1,4 +1,7 @@
+#create array
 board = [" "," "," "," ","X"," "," "," "," "]
+
+#create display_board method with board(array) argument
 def display_board(board) 
   puts " #{board[0]} | #{board[1]} | #{board[2]} "
   puts "-----------"
